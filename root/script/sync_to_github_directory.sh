@@ -11,6 +11,9 @@ git add *
 
 git status
 
+echo "Press any key to continue..."
+read
+
 git commit
 
 git push
