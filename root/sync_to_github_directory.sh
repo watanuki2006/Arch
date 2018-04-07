@@ -18,7 +18,6 @@ read
 
 git commit
 
-#echo "Press any key to continue..."
-#read
+echo "Waitting for connecting GitHub..."
 
 git push
