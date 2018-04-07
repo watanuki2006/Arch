@@ -48,3 +48,5 @@ else
 fi
 
 install_package chromium
+
+install_package sakura
