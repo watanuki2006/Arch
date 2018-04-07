@@ -18,4 +18,7 @@ read
 
 git commit
 
+echo "Press any key to continue..."
+read
+
 git push
