@@ -1,9 +1,8 @@
 #!/bin/bash
-#Source:     /root/script
-#Desination: /root/github/Arch/root/script
-#This file should be executed in destination
+#This file should be executed in repository root
 
-rm ~/script *~
+rm ~/*~
+rm ~/script/*~
 
 cp ~/.bash_profile ~/github/Arch/root/
 cp -r ~/srcipt/ ~/github/Arch/root/
