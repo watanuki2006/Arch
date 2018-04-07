@@ -5,6 +5,7 @@
 
 rm ~/script *~
 
+cp ~/.bash_profile ~/github/Arch/root/
 cp -r ~/srcipt/ ~/github/Arch/root/
 
 git add *
