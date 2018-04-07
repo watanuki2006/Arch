@@ -4,8 +4,11 @@
 rm ~/*~
 rm ~/script/*~
 
-cp ~/.bash_profile ~/github/Arch/root/
-cp -r ~/srcipt/ ~/github/Arch/root/
+rm ~/GitHub/Arch/root/.bash_profile
+rm -r ~/GitHub/Arch/root/script/
+
+cp ~/.bash_profile ~/GitHub/Arch/root/
+cp -r ~/script/ ~/GitHub/Arch/root/
 
 git add *
 git add .bash_profile
