@@ -52,9 +52,6 @@ install_package emacs
 
 ./install_package_git.sh
 
-install_package rubygems
-install_package ruby-rdoc
-gem update
-gem install jekyll
+./install_package_jekyll.sh
 
 ./install_package_lxde.sh
