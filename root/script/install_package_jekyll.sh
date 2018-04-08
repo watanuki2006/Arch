@@ -2,6 +2,8 @@
 
 source ./lib/libfuncs.sh
 
+install_package ruby
+
 install_package rubygems
 
 install_package ruby-rdoc
