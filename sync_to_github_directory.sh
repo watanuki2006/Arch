@@ -1,5 +1,5 @@
 #!/bin/bash
-#This file should be executed in repository root
+#This file should be executed in repository root (GitHub/Arch/)
 
 rm ~/*~
 rm ~/script/*~

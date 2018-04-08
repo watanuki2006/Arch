@@ -51,5 +51,6 @@ done
 install_package emacs
 
 ./install_package_git.sh
+install_package Jekyll
 
 ./install_package_lxde.sh

@@ -2,7 +2,7 @@
 
 ~/script/arch_network_config_automatically_on_bootup.sh enp0s3 1 253
 
-pacman -Q xorg-xinit
+pacman -Q xorg-xinit > /dev/null
 if [ $? == 0 ]
 then
     echo "Start LXDE? [Y/N]"
