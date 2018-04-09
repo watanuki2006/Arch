@@ -14,8 +14,6 @@ gem install jekyll > temp 2>&1
 
 gem install bundler > /dev/null
 
-gem install minima > /dev/null
-
 path_of_jekyll=`cat temp | grep "WARNING" | awk '{print $5}'`
 
 rm temp

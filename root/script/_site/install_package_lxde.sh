@@ -52,5 +52,3 @@ install_package chromium
 install_package sakura
 
 install_package adobe-source-code-pro-fonts
-
-install_package wqy-microhei-lite
