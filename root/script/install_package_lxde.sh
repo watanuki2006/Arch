@@ -54,3 +54,9 @@ install_package sakura
 install_package adobe-source-code-pro-fonts
 
 install_package wqy-microhei-lite
+
+install_package ibus
+
+install_package ibus-rime
+
+install_package ibus-anthy

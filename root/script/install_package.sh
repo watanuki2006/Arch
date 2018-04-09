@@ -50,6 +50,8 @@ done
 
 install_package emacs
 
+install_package unzip
+
 ./install_package_git.sh
 
 ./install_package_jekyll.sh
