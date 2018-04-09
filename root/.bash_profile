@@ -2,6 +2,9 @@
 
 ~/script/arch_network_config_automatically_on_bootup.sh enp0s3 1 253
 
+umount -R /mnt
+mount -t vboxsf Share /mnt
+
 pacman -Q xorg-xinit > /dev/null
 if [ $? == 0 ]
 then
