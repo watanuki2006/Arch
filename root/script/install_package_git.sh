@@ -4,6 +4,11 @@ source ./lib/libfuncs.sh
 
 install_package git
 
+if [ -d ~/GitHub ]
+then
+    mkdir GitHub
+fi
+
 if [ -f git.account ]
 then
     name=`sed -n '1p' git.account`
