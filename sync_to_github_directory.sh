@@ -1,7 +1,7 @@
 #!/bin/bash
 #This file should be executed in repository root (GitHub/Arch/)
 
-rm ~/*~
+rm ~/.*~
 rm ~/script/*~
 
 rm ~/GitHub/Arch/root/.bash_profile
