@@ -5,6 +5,8 @@
 umount -R /mnt
 mount -t vboxsf Share /mnt
 
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/root/.gem/ruby/2.5.0/bin
+
 pacman -Q xorg-xinit > /dev/null
 if [ $? == 0 ]
 then
@@ -23,4 +25,3 @@ then
 	fi
     done
 fi
-export PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/root/.gem/ruby/2.5.0/bin
